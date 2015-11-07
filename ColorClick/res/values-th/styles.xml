@@ -1,0 +1,89 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppLayoutStyle">
+        <item name="android:background">@drawable/app_background</item>
+    </style>
+    
+    <style name="DialogStyle">
+        <item name="android:background">@drawable/colorclick_dialog_bckground</item>
+    </style>
+    
+    
+    
+     <style name="DialogTextLayoutStyle">
+        <item name="android:background">#B7EAAC</item>
+        <item name="android:textColor">#41A62A</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    
+     <style name="DialogTextStyle">
+        <item name="android:textColor">#41A62A</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    
+     <style name="DialogButtonStyle">
+         <item name="android:textColor">#4DC432</item>
+         <item name="android:textSize">20dp</item>
+         <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/dialog_button_background_selector</item>
+    </style>
+    
+    
+    <style name="ColorButtonLayoutStyle">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/color_button_background_shape</item>
+    </style>
+    
+    <style name="TimerTextSwitchStyle">
+	     <item name="android:paddingTop">7dp</item>
+    	 <item name="android:paddingLeft">7dp</item>
+	     <item name="android:paddingRight">7dp</item>
+	     <item name="android:paddingBottom">7dp</item>
+	     <item name="android:layout_marginTop">2dp</item>
+	    <item name="android:layout_marginBottom">2dp</item>
+	     <item name="android:gravity">center</item>
+	    <item name="android:background">@drawable/summary_content_text_bckgrnd</item>
+	</style>
+	
+    <style name="TitleTextStyle">
+        <item name="android:layout_marginTop">2dp</item>
+	    <item name="android:layout_marginBottom">2dp</item>
+	    <item name="android:textSize">16dp</item>
+	    <item name="android:background">@drawable/summary_content_text_bckgrnd</item>
+	    <item name="android:textColor">#41A62A</item>
+	</style>
+    
+    <style name="ScoreTextSwitchStyle">
+        <item name="android:layout_marginTop">2dp</item>
+	    <item name="android:layout_marginBottom">2dp</item>
+	    <item name="android:background">@drawable/summary_content_text_bckgrnd</item>
+	</style>
+	
+     <style name="ColorTextSwitchStyle">
+          <item name="android:layout_marginTop">2dp</item>
+	    <item name="android:layout_marginBottom">2dp</item>
+	    <item name="android:background">@drawable/summary_content_text_bckgrnd</item>
+	</style>
+    
+
+</resources>

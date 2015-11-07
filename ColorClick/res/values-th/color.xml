@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <!--  Color Text Array -->
+     <array name="color_text_arr">
+     	<item>@string/red_color_text</item>
+     	<item>@string/green_color_text</item>
+     	<item>@string/blue_color_text</item>
+     	<item>@string/yellow_color_text</item>
+     	<item>@string/purple_color_text</item>
+     	<item>@string/orange_color_text</item>
+     	<item>@string/brown_color_text</item>
+     	<item>@string/white_color_text</item>
+     	<item>@string/black_color_text</item>
+     	<item>@string/pink_color_text</item>
+     	<item>@string/lightblue_color_text</item>
+     	<item>@string/grey_color_text</item>
+     </array>
+     
+       <!--  Color RGB Array -->
+     <array name="color_rgb_arr">
+     	<item>@string/red_color_rgb</item>
+     	<item>@string/green_color_rgb</item>
+     	<item>@string/blue_color_rgb</item>
+     	<item>@string/yellow_color_rgb</item>
+     	<item>@string/purple_color_rgb</item>
+     	<item>@string/orange_color_rgb</item>
+     	<item>@string/brown_color_rgb</item>
+     	<item>@string/white_color_rgb</item>
+     	<item>@string/black_color_rgb</item>
+     	<item>@string/pink_color_rgb</item>
+     	<item>@string/lightblue_color_rgb</item>
+     	<item>@string/grey_color_rgb</item>
+     </array>
+     
+     <!--  Color Text  -->
+     <string name="red_color_text">แดง</string>
+     <string name="green_color_text">เขียว</string>
+     <string name="blue_color_text">น้ำเงิน</string>
+     <string name="yellow_color_text">เหลือง</string>
+     <string name="purple_color_text">ม่วง</string>
+     <string name="orange_color_text">ส้ม</string>
+     <string name="brown_color_text">น้ำตาล</string>
+     <string name="white_color_text">ขาว</string>
+     <string name="black_color_text">ดำ</string>
+     <string name="pink_color_text">ชมพู</string>
+     <string name="lightblue_color_text">ฟ้า</string>
+     <string name="grey_color_text">เทา</string>
+     
+     <!--  Color RGB  -->
+     <string name="red_color_rgb">#FF0000</string>
+     <string name="green_color_rgb">#008B00</string>
+     <string name="blue_color_rgb">#0000FF</string>
+     <string name="yellow_color_rgb">#FFFF00</string>
+     <string name="purple_color_rgb">#9400D3</string>
+     <string name="orange_color_rgb">#FFA500</string>
+     <string name="brown_color_rgb">#8B4513</string>
+     <string name="white_color_rgb">#FFFFFF</string>
+     <string name="black_color_rgb">#000000</string>
+     <string name="pink_color_rgb">#EEB4B4</string>
+     <string name="lightblue_color_rgb">#00FFFF</string>
+     <string name="grey_color_rgb">#A3A3A3</string>
+</resources>

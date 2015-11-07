@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColorClick</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="points_text">Points : %s</string>
+    <string name="earned_points_text">Earned Points : %s</string>
+    <string name="color_click_instruction">Color Click ! - Let click color item that is matched displayed name of color.</string>
+    <string name="color_click_welcome_dialog_message">Welcome to Color Click!. \n Let you test about your color recognition.\n Let enjoy within 3 muinutes.</string>
+    <string name="welcome_dialog_title_name">Welcome...</string>
+    <string name="start">Start..</string>
+    <string name="color_click_summary_dialog_message">Congraturation. you are tested about your color recognition.</string>
+    <string name="try_again">Try again...</string>
+    <string name="quit">Quit...</string>
+    <string name="stop">Stop...</string>
+    <string name="returnText">Return...</string>
+</resources>

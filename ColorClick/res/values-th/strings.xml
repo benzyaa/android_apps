@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColorClick</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="points_text">คะแนน : %s</string>
+    <string name="earned_points_text">คะแนนที่ได้รับ : %s</string>
+    <string name="color_click_instruction">Color Click ! - มาช่วยเลิอกสีให้ตรงกับชื่อสีที่เราบอกกันเถอะ.</string>
+    <string name="color_click_welcome_dialog_message">ยินดีต้อนรับสู่  Color Click!. \n มาทดสอบความสามารถเกี่ยวกับเรื่องสีของท่านกันเถอะ.</string>
+    <string name="welcome_dialog_title_name">Welcome...</string>
+    <string name="start">เริ่ม..</string>
+    <string name="color_click_summary_dialog_message">ท่านได้ทำการทดสอบเรื่องสีแล้ว ท่านได้คะแนนดังต่อไปนี้.</string>
+    <string name="try_again">ทดสอบอีกครั้ง...</string>
+    <string name="quit">ยุติ...</string>
+    <string name="stop">หยุด...</string>
+    <string name="returnText">ยกเลิก...</string>
+</resources> 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="@style/DialogStyle"
+    android:padding="10dp">
+    <LinearLayout 
+        android:id="@+id/welcome_dialog_text_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp"
+        style="@style/DialogTextLayoutStyle">
+		    <TextView android:id="@+id/welcome_dialog_text_view" 
+		     android:layout_width="fill_parent" 
+		     android:layout_height="wrap_content"
+		     android:text="@string/color_click_welcome_dialog_message"
+		     style="@style/DialogTextStyle"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/welcome_dialog_button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp"
+		android:layout_below="@id/welcome_dialog_text_layout">
+		    <Button android:id="@+id/start_button"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/start"
+		        android:layout_marginTop="4dp"
+		        android:layout_marginBottom="4dp"
+		        android:layout_marginLeft="5dp"
+		        style="@style/DialogButtonStyle"
+		      />
+    </LinearLayout>
+</RelativeLayout>

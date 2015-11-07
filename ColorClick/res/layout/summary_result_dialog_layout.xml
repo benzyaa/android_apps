@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/DialogStyle" >
+   
+     <LinearLayout 
+        android:id="@+id/summary_dialog_text_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp"
+        style="@style/DialogTextLayoutStyle">
+	    <TextView 
+	        android:id="@+id/summary_dialog_textview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/color_click_summary_dialog_message"
+	        style="@style/DialogTextStyle"
+	     />
+	    <TextSwitcher
+	        android:id="@+id/summary_point_textswitcher"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/summary_dialog_textview"
+	        style="@style/DialogTextStyle" />
+    </LinearLayout>
+    
+      <LinearLayout 
+        android:id="@+id/summary_dialog_button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp"
+		android:layout_below="@id/summary_dialog_text_layout">
+		    <Button
+		        android:id="@+id/summary_dialog_retry_button"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/summary_point_textswitcher"
+		        android:text="@string/try_again"
+		        style="@style/DialogButtonStyle" />
+		     <Button
+		        android:id="@+id/summary_dialog_quit_button"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/summary_dialog_retry_button"
+		        android:text="@string/quit"
+		        style="@style/DialogButtonStyle"  />
+     </LinearLayout>
+</RelativeLayout>
